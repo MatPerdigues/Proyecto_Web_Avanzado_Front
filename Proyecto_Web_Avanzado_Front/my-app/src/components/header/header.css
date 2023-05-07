@@ -1,0 +1,35 @@
+#headerHome{
+    
+    width: 1920px;
+    height: 200px;
+    color: white;
+        
+}
+
+#h1Header{
+   
+    font-family: 'Bruno Ace', cursive;
+    margin-top: 50px;
+    
+}
+
+#listHeader {
+    
+    
+    width: 550px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+    right: 15PX;
+    margin: 0 auto;
+    font-size: 13PX;
+    font-family: 'Castoro Titling', cursive;
+    
+    
+}
+
+.btnHeader{
+    background-color: black;
+}
