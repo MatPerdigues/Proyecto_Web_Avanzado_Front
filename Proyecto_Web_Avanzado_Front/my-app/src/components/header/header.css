@@ -1,35 +1,55 @@
-#headerHome{
-    
-    width: 1920px;
-    height: 200px;
+
+#secSuperiorHeader {
+   
     color: white;
-        
+    font-family: 'Bruno Ace', cursive;
+    height: 50px;
 }
 
 #h1Header{
-   
-    font-family: 'Bruno Ace', cursive;
     margin-top: 50px;
+}
+
+#secInferior1 {
+    border: 1px solid white;
+    height: 760px;
+    margin-top: 40px;
+}
+
+#secInferior1-div1{
+    
+    color: white;
+    height: 50px;
+    width: 215px;
+    position: absolute;
+    left: 500px;
+    margin-top: 20px;
+
+    
+    
+
+}
+
+#secInferior1-div2{
+    border: 1px solid violet;
+    height: 250px;
+    background-color: #111211;
+    opacity: 95%;
+    transform: scaleX(0);
+    width: 1918px;
+    position: fixed;
+    left: 0px;
+    
+
+}
+
+#p1{
+    
     
 }
 
-#listHeader {
-    
-    
-    width: 550px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: 50px;
-    right: 15PX;
-    margin: 0 auto;
-    font-size: 13PX;
-    font-family: 'Castoro Titling', cursive;
-    
-    
+#secInferior1-div1:hover > #secInferior1-div2 {
+    transform: scaleX(1);    
 }
 
-.btnHeader{
-    background-color: black;
-}
+
