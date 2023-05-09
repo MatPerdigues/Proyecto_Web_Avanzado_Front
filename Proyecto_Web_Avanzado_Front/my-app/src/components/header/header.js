@@ -18,14 +18,29 @@ export default function Header(){
                     
                     <section id='secInferior1'>
 
-                        <div id='secInferior1-div1'>
+                        <div id='secInferior1-div1' class="encabezado">
                             <p id='p1'>ECOSISTEMAS AMAZÓNICOS</p>
-                            <div id='secInferior1-div2'></div>
-                            <div id='secInferior1-div3'></div>
-                        
+                            <div id='secInferior1-div2' class="menuSecInferior"></div>
                         </div>
 
-                        
+                    </section>
+
+                    <section id='secInferior2'>
+
+                        <div id='secInferior2-div1' class="encabezado">
+                            <p id='p2'>ECOSISTEMAS OCEÁNICOS</p>
+                            <div id='secInferior2-div2' class="menuSecInferior"></div>
+                        </div>
+
+                    </section>
+
+                    <section id='secInferior3'>
+
+                        <div id='secInferior3-div1' class="encabezado">
+                            <p id='p3'>ECOSISTEMAS DE AGUA DULCE</p>
+                            <div id='secInferior3-div2' class="menuSecInferior"></div>
+                        </div>
+
                     </section>
 
                 </header>

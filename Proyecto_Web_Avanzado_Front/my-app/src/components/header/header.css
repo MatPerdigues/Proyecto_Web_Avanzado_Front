@@ -11,45 +11,95 @@
 }
 
 #secInferior1 {
-    border: 1px solid white;
-    height: 760px;
+    
+    height: 800px;
     margin-top: 40px;
 }
 
-#secInferior1-div1{
+.encabezado{
     
     color: white;
     height: 50px;
     width: 215px;
     position: absolute;
     left: 500px;
-    margin-top: 20px;
-
-    
-    
-
+    margin-top: 0px;
 }
 
-#secInferior1-div2{
-    border: 1px solid violet;
+.menuSecInferior{
+    
     height: 250px;
     background-color: #111211;
     opacity: 95%;
-    transform: scaleX(0);
     width: 1918px;
     position: fixed;
     left: 0px;
-    
-
+    visibility: hidden;
+    opacity: 0;
 }
-
-#p1{
-    
-    
-}
-
+ 
 #secInferior1-div1:hover > #secInferior1-div2 {
-    transform: scaleX(1);    
+    visibility: visible;  
+    height: 250px;
+    opacity: 95%;
+    transition: 1s;  
+    
 }
 
+#secInferior2 {
+    
+    position: absolute;
+    top: 138px;
+    left: 340px;
+} 
+
+#secInferior2-div2{
+    height: 250px;
+    background-color: #111211;
+    width: 1918px;
+    position: fixed;
+    left: 0px;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+
+#secInferior2-div1:hover > #secInferior2-div2 {
+    visibility: visible;  
+    height: 250px;
+    opacity: 95%;
+    transition: 1s;  
+    
+}
+
+#secInferior3{
+    
+    position: absolute;
+    top: 138px;
+    left: 680px;
+}
+
+#secInferior3-div1{
+    
+    width: 230px;
+}
+
+#secInferior3-div2{
+    height: 250px;
+    background-color: #111211;
+    width: 1918px;
+    position: fixed;
+    left: 0px;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+
+#secInferior3-div1:hover > #secInferior3-div2 {
+    visibility: visible;  
+    height: 250px;
+    opacity: 95%;
+    transition: 1s;  
+    
+}
 
